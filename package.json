@@ -30,5 +30,8 @@
   "workspaces": [
     "pkg/*",
     "pvt/*"
-  ]
+  ],
+  "dependencies": {
+    "openzeppelin-solidity": "3.2.0"
+  }
 }

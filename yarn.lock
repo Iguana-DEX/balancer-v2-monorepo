@@ -324,6 +324,8 @@ __metadata:
 "@balancer-labs/v2-monorepo@workspace:.":
   version: 0.0.0-use.local
   resolution: "@balancer-labs/v2-monorepo@workspace:."
+  dependencies:
+    openzeppelin-solidity: 3.2.0
   languageName: unknown
   linkType: soft
 
@@ -1841,6 +1843,48 @@ __metadata:
   checksum: 5fc0c8672c9f0a3fcb9f71004e386fbbe6ff443309dfebfdbae4646536a416ed7d11fd2ce34be2b90dc4033e75922f4b4cde2f387a389d0462b1eb6034342c16
   languageName: node
   linkType: hard
+
+"@iguana-dex/tokens@workspace:pkg/tokens":
+  version: 0.0.0-use.local
+  resolution: "@iguana-dex/tokens@workspace:pkg/tokens"
+  dependencies:
+    "@balancer-labs/v2-common": "workspace:*"
+    "@balancer-labs/v2-helpers": "workspace:*"
+    "@balancer-labs/v2-interfaces": "workspace:*"
+    "@balancer-labs/v2-pool-utils": "workspace:*"
+    "@balancer-labs/v2-solidity-utils": "workspace:*"
+    "@nomiclabs/hardhat-ethers": ^2.2.1
+    "@nomiclabs/hardhat-waffle": ^2.0.3
+    "@types/chai": ^4.3.3
+    "@types/lodash": ^4.14.186
+    "@types/mocha": ^10.0.0
+    "@types/node": ^14.14.31
+    "@typescript-eslint/eslint-plugin": ^5.41.0
+    "@typescript-eslint/parser": ^5.41.0
+    chai: ^4.3.6
+    decimal.js: ^10.4.2
+    eslint: ^8.26.0
+    eslint-plugin-mocha-no-only: ^1.1.1
+    eslint-plugin-prettier: ^4.2.1
+    ethereum-waffle: ^3.4.4
+    ethers: ^5.7.2
+    hardhat: ^2.12.5
+    hardhat-ignore-warnings: ^0.2.4
+    lodash.frompairs: ^4.0.1
+    lodash.pick: ^4.4.0
+    lodash.range: ^3.2.0
+    lodash.times: ^4.3.2
+    lodash.zip: ^4.2.0
+    mocha: ^10.1.0
+    nodemon: ^2.0.20
+    prettier: ^2.7.1
+    prettier-plugin-solidity: v1.0.0-alpha.59
+    solhint: ^3.2.0
+    solhint-plugin-prettier: ^0.0.4
+    ts-node: ^10.9.1
+    typescript: ^4.0.2
+  languageName: unknown
+  linkType: soft
 
 "@jridgewell/resolve-uri@npm:^3.0.3":
   version: 3.1.0
@@ -10592,6 +10636,13 @@ __metadata:
     is-docker: ^2.0.0
     is-wsl: ^2.1.1
   checksum: 07545fa768e5fbc25c6f53c6f17465f1b7ee663a494f87608d99a7b3227c83d2d2e0f0e5ecb70325b4ddef97dcd02d206f9afe3f8d6bb3d6612db9ca310ed4eb
+  languageName: node
+  linkType: hard
+
+"openzeppelin-solidity@npm:3.2.0":
+  version: 3.2.0
+  resolution: "openzeppelin-solidity@npm:3.2.0"
+  checksum: 50680ab603e2be7c88c899e57bf7c1540664101d124bca78edd28be4524c4b8f67763c41fc47bbf042752709871e2f820a8da83d24d813d9941039cb8a58478c
   languageName: node
   linkType: hard
 

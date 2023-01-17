@@ -51,6 +51,15 @@ export const compilers: [SolcConfig] = [
       },
     },
   },
+  {
+    version: '0.6.4',
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 9999,
+      },
+    },
+  },
 ];
 
 export const overrides = (packageName: string): Record<string, SolcConfig> => {
