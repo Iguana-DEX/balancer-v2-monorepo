@@ -84,6 +84,10 @@ export default {
         'symbol': 'SOL',
         'name': 'SOLANA',
       },
+      {
+        'symbol': 'DOT',
+        'name': 'Binance-Peg Polkadot Token'
+      },
     ],
   },
 };

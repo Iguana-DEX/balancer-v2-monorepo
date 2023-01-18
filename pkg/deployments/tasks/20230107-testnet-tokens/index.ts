@@ -16,29 +16,33 @@ export default async (task: Task, { force, from }: TaskRunOptions = {}): Promise
   let bep20: Contract;
 
   for (const token of input.tokens) {
-    // skip to verification if in output
+
+    if (!(token.symbol in task.output())) {
     // also retry if connection error
+      tx = await factory.createBEP20Token(
+        token.name,
+        token.symbol,
+        18,
+        bn(1e24), // mint 1e6 tokens
+        true,
+        input.bep20Owner,
+        input.proxyAdmin
+      );
 
-    tx = await factory.createBEP20Token(
-      token.name,
-      token.symbol,
-      18,
-      bn(1e24), // mint 1e6 tokens
-      true,
-      input.bep20Owner,
-      input.proxyAdmin
-    );
-
-    receipt = await tx.wait();
-    address = receipt.events.filter((e) => e.event !== 'TokenCreated')[0].address;
-    bep20 = await task.instanceAt('BEP20UpgradeableProxy', address);
+      receipt = await tx.wait();
+      address = await receipt.events.filter((e) => e.event !== 'TokenCreated')[0].address;
+      bep20 = await task.instanceAt('BEP20UpgradeableProxy', address);
     
-    console.log(token.symbol, 'deployed at:', address);
-    await task.save({[token.symbol]: bep20});
+      console.log(token.symbol, 'deployed at:', address);
+      await task.save({[token.symbol]: bep20});
+    } else {
+      address = task.output()[token.symbol];
+    }
+
     await task.verify('BEP20UpgradeableProxy', address, [
       implementation.address,
       input.proxyAdmin,
-      ""
+      ''
     ]);
   }
 };
