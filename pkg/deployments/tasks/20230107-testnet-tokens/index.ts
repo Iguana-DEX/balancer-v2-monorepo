@@ -42,7 +42,7 @@ export default async (task: Task, { force, from }: TaskRunOptions = {}): Promise
     await task.verify('BEP20UpgradeableProxy', address, [
       implementation.address,
       input.proxyAdmin,
-      ''
+      '0x'
     ]);
   }
 };

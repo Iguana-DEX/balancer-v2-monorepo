@@ -24,6 +24,9 @@ export default {
   bsc: {
     admin: '0x58099b94e660bBe19848547F6c5d76DcA7282E45',
   },
+  'bsc-testnet': {
+    admin: '0xfEB47392B746dA43C28683A145237aC5EC5D554B',
+  },
   goerli: {
     admin: '0xE0a171587b1Cae546E069A943EDa96916F5EE977',
   },
