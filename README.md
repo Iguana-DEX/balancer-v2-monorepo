@@ -5,7 +5,7 @@
 </p>
 
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://iguanadex.gitbook.io/iguanadex-docs/)
-[![CI Status](https://github.com/iguana-dex/iguana-backend/workflows/CI/badge.svg)](https://github.com/iguana-dex/iguana-backend/actions)
+[![CI Status](https://github.com/balancer-labs/balancer-v2-monorepo/workflows/CI/badge.svg)](https://github.com/iguana-dex/iguana-backend/actions)
 [![License](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This repository contains the IguanaDEX core smart contracts, including the `Vault` and standard Pools, along with their tests, configuration, and deployment information.
