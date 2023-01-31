@@ -1,0 +1,5 @@
+{
+  "RewardsOnlyGauge": "0x0d9E2139500EE4E5E486B8983cFD47099f7dC9e9",
+  "ChildChainStreamer": "0xB5b2FF18cB0F5c4BBFa78B0E6aabD50268baA3E7",
+  "ChildChainLiquidityGaugeFactory": "0x474D5B1123EaF0941E15A45e23c5c838B9709807"
+}

@@ -48,6 +48,12 @@ export default {
       WeightedPoolFactoryTask.output({ network: 'bsc' }).WeightedPoolFactory,
     ],
   },
+  'bsc-testnet': {
+    InitialFactories: [
+      ComposableStablePoolFactoryTask.output({ network: 'bsc-testnet' }).ComposableStablePoolFactory,
+      WeightedPoolFactoryTask.output({ network: 'bsc-testnet' }).WeightedPoolFactory,
+    ],
+  },
   gnosis: {
     InitialFactories: [
       ComposableStablePoolFactoryV2Task.output({ network: 'gnosis' }).ComposableStablePoolFactory,

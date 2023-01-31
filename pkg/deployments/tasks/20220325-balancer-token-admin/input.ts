@@ -19,4 +19,7 @@ export default {
   goerli: {
     BAL: TestBALTask.output({ network: 'goerli' }).TestBalancerToken,
   },
+  'bsc-testnet': {
+    BAL: TestBALTask.output({ network: 'bsc-testnet' }).TestBalancerToken,
+  },
 };

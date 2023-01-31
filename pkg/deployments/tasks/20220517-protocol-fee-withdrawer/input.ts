@@ -35,4 +35,7 @@ export default {
   goerli: {
     InitialDeniedTokens: [],
   },
+  'bsc-testnet': {
+    InitialDeniedTokens: [],
+  },
 };

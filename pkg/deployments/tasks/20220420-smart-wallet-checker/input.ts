@@ -16,4 +16,7 @@ export default {
   goerli: {
     InitialAllowedAddresses: [],
   },
+  'bsc-testnet': {
+    InitialAllowedAddresses: [],
+  },
 };

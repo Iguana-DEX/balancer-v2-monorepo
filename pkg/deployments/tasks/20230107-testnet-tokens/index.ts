@@ -39,10 +39,10 @@ export default async (task: Task, { force, from }: TaskRunOptions = {}): Promise
       address = task.output()[token.symbol];
     }
 
-    await task.verify('BEP20UpgradeableProxy', address, [
-      implementation.address,
-      input.proxyAdmin,
-      '0x'
-    ]);
+    // await task.verify('BEP20UpgradeableProxy', address, [
+    //  implementation.address,
+    //  input.proxyAdmin,
+    // '0x'
+    // ]);
   }
 };

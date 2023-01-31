@@ -80,4 +80,8 @@ export default {
     PreseededBoostCalls: [],
     PreseededApprovalCalls: [],
   },
+  'bsc-testnet': {
+    PreseededBoostCalls: [],
+    PreseededApprovalCalls: [],
+  },
 };

@@ -13,7 +13,7 @@ export default {
   'bsc': {
   },
   'bsc-testnet': {
-    'bep20Owner': '0xfEB47392B746dA43C28683A145237aC5EC5D554B',
+    'bep20Owner': '0xE19fBc40cF98D81FF21cdaF4670870dA313aBe43',
     'proxyAdmin': '0xfEB47392B746dA43C28683A145237aC5EC5D554B',
     'tokens': [
       {

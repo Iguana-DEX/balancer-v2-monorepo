@@ -16,4 +16,7 @@ export default {
   goerli: {
     PreviousGaugeAdder: GaugeAdder.output({ network: 'goerli' }).GaugeAdder,
   },
+  'bsc-testnet': {
+    PreviousGaugeAdder: GaugeAdder.output({ network: 'bsc-testnet' }).GaugeAdder,
+  },
 };
