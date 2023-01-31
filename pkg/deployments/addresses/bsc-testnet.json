@@ -1,0 +1,158 @@
+{
+  "0x0E3d62ab020583Dcde2D59A92eebf70c637A6e48": {
+    "task": "20210418-authorizer",
+    "name": "Authorizer"
+  },
+  "0x3ABf84a6f863D31B747fd702533d67cb4224c59d": {
+    "task": "20210418-vault",
+    "name": "Vault"
+  },
+  "0x1D1D1F5fa1f37caB26C7396EACE5a7027a1ACD60": {
+    "task": "20210418-vault",
+    "name": "ProtocolFeesCollector"
+  },
+  "0x99fF451379772B0A1C0aA512b7794372ca0bCE29": {
+    "task": "20210418-vault",
+    "name": "BalancerHelpers"
+  },
+  "0xc8Bb6c60580f7382E5b56CD64DCc8346697DDb42": {
+    "task": "20220725-protocol-fee-percentages-provider",
+    "name": "ProtocolFeePercentagesProvider"
+  },
+  "0x7b61837701Fad187d24f11A0b02E08308cB3912D": {
+    "task": "20220908-weighted-pool-v2",
+    "name": "WeightedPoolFactory"
+  },
+  "0xaf69C95939Bf1A703BA0a16EB27969ceBC1C2E40": {
+    "task": "20230107-testnet-tokens",
+    "name": "BEP20TokenImplementationV1"
+  },
+  "0x1BEdEd9c0b97d1741AC8B8b49e00f403061A82c2": {
+    "task": "20230107-testnet-tokens",
+    "name": "BEP20TokenFactory"
+  },
+  "0x1889173c58052E880AC87C2569f508910160d1A0": {
+    "task": "20230107-testnet-tokens",
+    "name": "WBNB"
+  },
+  "0x91424584c58f5d0337c28bb93B8eEB8f9CF61E3d": {
+    "task": "20230107-testnet-tokens",
+    "name": "DOGE"
+  },
+  "0xDf3f84288232EE3565ff1FC3999181cEA94f18EC": {
+    "task": "20230107-testnet-tokens",
+    "name": "ADA"
+  },
+  "0x9C0Bb7991B05714021eB2e573D643956205C0fF5": {
+    "task": "20230107-testnet-tokens",
+    "name": "MATIC"
+  },
+  "0xbcd9d2d61Ce3879ecC949ef751A851a4344fa28a": {
+    "task": "20230107-testnet-tokens",
+    "name": "LTC"
+  },
+  "0xFb42dDfB1fEc98B9AeB196BfB035fAd5b05563c2": {
+    "task": "20230107-testnet-tokens",
+    "name": "SHIB"
+  },
+  "0xC3e7336376921F9DE17AAde2AA14C8A0962f691c": {
+    "task": "20230107-testnet-tokens",
+    "name": "TRX"
+  },
+  "0x3DF467B9fc52DEbfCE7387d463978cBb28B1Fe05": {
+    "task": "20230107-testnet-tokens",
+    "name": "UNI"
+  },
+  "0x85373D517E8EE60f6c7BDb57b57901D286CeC003": {
+    "task": "20230107-testnet-tokens",
+    "name": "AVAX"
+  },
+  "0x5fb725D327155d820c0BE6933006f225E6AD21F3": {
+    "task": "20230107-testnet-tokens",
+    "name": "ATOM"
+  },
+  "0xAf158D8dD4631258DB61E13FAF641b225c0b589D": {
+    "task": "20230107-testnet-tokens",
+    "name": "ETC"
+  },
+  "0xb70ca608f94b8A612Fc31BAbAaF4E0fa5ba6f321": {
+    "task": "20230107-testnet-tokens",
+    "name": "LINK"
+  },
+  "0x946D077D7cF50e7a879b1f3360a2132822E6168E": {
+    "task": "20230107-testnet-tokens",
+    "name": "BCH"
+  },
+  "0xe3D3Cb7eA64A2040C0bec4C85631817C76D691b4": {
+    "task": "20230107-testnet-tokens",
+    "name": "EOS"
+  },
+  "0xaA247ee3c4DF646Dc538e76F4913d6D23257Ae31": {
+    "task": "20230107-testnet-tokens",
+    "name": "1INCH"
+  },
+  "0x903394dAfCFF6F92b879AB28d497FC6a2A9d5e7e": {
+    "task": "20230107-testnet-tokens",
+    "name": "CAKE"
+  },
+  "0x1dbCB3bC9063cE9DBe9829F240f5baB278aBD12b": {
+    "task": "20230107-testnet-tokens",
+    "name": "SOL"
+  },
+  "0x5eCD93412770A2B6649c32B9aAc2d76fE00Ae9bE": {
+    "task": "20230107-testnet-tokens",
+    "name": "DOT"
+  },
+  "0x7982530d628781E613149488dF0916C6c0A3Be3a": {
+    "task": "20220325-authorizer-adaptor",
+    "name": "AuthorizerAdaptor"
+  },
+  "0x32A10A4908907E42f97aa1e2fD4E7c76b3234856": {
+    "task": "20220325-bal-token-holder-factory",
+    "name": "BALTokenHolderFactory"
+  },
+  "0x557E1832ebA0D2f80aF95E96EA711CFa6aB01562": {
+    "task": "20220325-balancer-token-admin",
+    "name": "BalancerTokenAdmin"
+  },
+  "0x5cA2E6A6173826e4DD0876fD853020F40362cbAE": {
+    "task": "20220325-test-balancer-token",
+    "name": "TestBalancerToken"
+  },
+  "0x3E98BFa0E6818BE6B19161896c037a6c594442c4": {
+    "task": "20220404-erc4626-linear-pool-v2",
+    "name": "ERC4626LinearPoolFactory"
+  },
+  "0x0d9E2139500EE4E5E486B8983cFD47099f7dC9e9": {
+    "task": "20220413-child-chain-gauge-factory",
+    "name": "RewardsOnlyGauge"
+  },
+  "0xB5b2FF18cB0F5c4BBFa78B0E6aabD50268baA3E7": {
+    "task": "20220413-child-chain-gauge-factory",
+    "name": "ChildChainStreamer"
+  },
+  "0x474D5B1123EaF0941E15A45e23c5c838B9709807": {
+    "task": "20220413-child-chain-gauge-factory",
+    "name": "ChildChainLiquidityGaugeFactory"
+  },
+  "0xE956c6734780ffBEB7a91dab6a18173C98BcF604": {
+    "task": "20220420-smart-wallet-checker",
+    "name": "SmartWalletChecker"
+  },
+  "0x93dc920a203a11Ea972EC7E72012118E0B9675a9": {
+    "task": "20220425-unbutton-aave-linear-pool",
+    "name": "UnbuttonAaveLinearPoolFactory"
+  },
+  "0xfDBBc93B8E914226806eec5928dD5a0dFE035c78": {
+    "task": "20220513-double-entrypoint-fix-relayer",
+    "name": "DoubleEntrypointFixRelayer"
+  },
+  "0x5D4BeF71260236A4dB97d7Dda7cb91F7404615c1": {
+    "task": "20220517-protocol-fee-withdrawer",
+    "name": "ProtocolFeesWithdrawer"
+  },
+  "0x6C1964C66d33C185C28D4d18524bE138F33247FB": {
+    "task": "20220527-child-chain-gauge-token-adder",
+    "name": "ChildChainGaugeTokenAdder"
+  }
+}
