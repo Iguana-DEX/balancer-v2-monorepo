@@ -1,14 +1,16 @@
-# <img src="logo.svg" alt="Balancer" height="128px">
+# 🦎 Iguana Frontend
 
-# Balancer V2 Monorepo
+<p align="center">
+  <img width="320" height="246" src="https://user-images.githubusercontent.com/34973295/206001164-103361a4-086e-4e12-83e6-8a2d7ccd4d59.png">
+</p>
 
-[![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://docs.balancer.fi/)
-[![CI Status](https://github.com/balancer-labs/balancer-v2-monorepo/workflows/CI/badge.svg)](https://github.com/balancer-labs/balancer-v2-monorepo/actions)
+[![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://iguanadex.gitbook.io/iguanadex-docs/)
+[![CI Status](https://github.com/balancer-labs/balancer-v2-monorepo/workflows/CI/badge.svg)](https://github.com/iguana-dex/iguana-backend/actions)
 [![License](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This repository contains the Balancer Protocol V2 core smart contracts, including the `Vault` and standard Pools, along with their tests, configuration, and deployment information.
+This repository contains the IguanaDEX core smart contracts, including the `Vault` and standard Pools, along with their tests, configuration, and deployment information.
 
-For a high-level introduction to Balancer V2, see [Introducing Balancer V2: Generalized AMMs](https://medium.com/balancer-protocol/balancer-v2-generalizing-amms-16343c4563ff).
+IguanaDEX was partly forked from Balancer V2. For a high-level introduction to Balancer V2, see [Introducing Balancer V2: Generalized AMMs](https://medium.com/balancer-protocol/balancer-v2-generalizing-amms-16343c4563ff).
 
 ## Structure
 
@@ -38,7 +40,7 @@ The build & test instructions below should work out of the box with Node ^14.18.
 This repository uses git submodules; use `--recurse-submodules` option when cloning. For example, using https:
 
 ```bash
-$ git clone --recurse-submodules https://github.com/balancer-labs/balancer-v2-monorepo.git
+$ git clone --recurse-submodules https://github.com/Iguana-DEX/iguana-backend.git
 ```
 
 ## Build and Test
@@ -86,8 +88,6 @@ $ yarn test-fuzz
 ## Security
 
 Multiple independent reviews and audits were performed by [Certora](https://www.certora.com/), [OpenZeppelin](https://openzeppelin.com/) and [Trail of Bits](https://www.trailofbits.com/). The latest reports from these engagements are located in the [`audits`](./audits) directory.
-
-Bug bounties apply to most of the smart contracts hosted in this repository: head to [Balancer V2 Bug Bounties](https://docs.balancer.fi/core-concepts/security/bug-bounties) to learn more. Alternatively, send an email to security@balancer.finance.
 
 All core smart contracts are immutable, and cannot be upgraded. See page 6 of the [Trail of Bits audit](https://github.com/balancer-labs/balancer-v2-monorepo/blob/master/audits/trail-of-bits/2021-04-05.pdf):
 
