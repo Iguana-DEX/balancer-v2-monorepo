@@ -325,6 +325,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@balancer-labs/v2-monorepo@workspace:."
   dependencies:
+    "@openzeppelin/contracts": ^4.8.1
     openzeppelin-solidity: 3.2.0
   languageName: unknown
   linkType: soft
@@ -1844,6 +1845,48 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iguana-dex/iguana-token@workspace:pkg/iguana-token":
+  version: 0.0.0-use.local
+  resolution: "@iguana-dex/iguana-token@workspace:pkg/iguana-token"
+  dependencies:
+    "@balancer-labs/v2-common": "workspace:*"
+    "@balancer-labs/v2-helpers": "workspace:*"
+    "@balancer-labs/v2-interfaces": "workspace:*"
+    "@balancer-labs/v2-pool-utils": "workspace:*"
+    "@balancer-labs/v2-solidity-utils": "workspace:*"
+    "@nomiclabs/hardhat-ethers": ^2.2.1
+    "@nomiclabs/hardhat-waffle": ^2.0.3
+    "@types/chai": ^4.3.3
+    "@types/lodash": ^4.14.186
+    "@types/mocha": ^10.0.0
+    "@types/node": ^14.14.31
+    "@typescript-eslint/eslint-plugin": ^5.41.0
+    "@typescript-eslint/parser": ^5.41.0
+    chai: ^4.3.6
+    decimal.js: ^10.4.2
+    eslint: ^8.26.0
+    eslint-plugin-mocha-no-only: ^1.1.1
+    eslint-plugin-prettier: ^4.2.1
+    ethereum-waffle: ^3.4.4
+    ethers: ^5.7.2
+    hardhat: ^2.12.5
+    hardhat-ignore-warnings: ^0.2.4
+    lodash.frompairs: ^4.0.1
+    lodash.pick: ^4.4.0
+    lodash.range: ^3.2.0
+    lodash.times: ^4.3.2
+    lodash.zip: ^4.2.0
+    mocha: ^10.1.0
+    nodemon: ^2.0.20
+    prettier: ^2.7.1
+    prettier-plugin-solidity: v1.0.0-alpha.59
+    solhint: ^3.2.0
+    solhint-plugin-prettier: ^0.0.4
+    ts-node: ^10.9.1
+    typescript: ^4.0.2
+  languageName: unknown
+  linkType: soft
+
 "@iguana-dex/tokens@workspace:pkg/tokens":
   version: 0.0.0-use.local
   resolution: "@iguana-dex/tokens@workspace:pkg/tokens"
@@ -2334,6 +2377,13 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: d178d86a0a96e5aa12e6d70c00d50eb3bb9a58c0cf1c36e1d7f240acb4ae3f14642c6314659c438ea409a509f08c2a62e29c9346a033e554c3f6921cdb293219
+  languageName: node
+  linkType: hard
+
+"@openzeppelin/contracts@npm:^4.8.1":
+  version: 4.8.1
+  resolution: "@openzeppelin/contracts@npm:4.8.1"
+  checksum: c40e63df24f45307dc520c21af93f172cd34f2eb765498e29c85cba5b0e9911397c5a1965252a06ed046471600216d9a267a0cbb5db3a11e11b261af0bac8183
   languageName: node
   linkType: hard
 
