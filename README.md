@@ -1,4 +1,4 @@
-# 🦎 Iguana Frontend
+# 🦎 Iguana Backend
 
 <p align="center">
   <img width="320" height="246" src="https://user-images.githubusercontent.com/34973295/206001164-103361a4-086e-4e12-83e6-8a2d7ccd4d59.png">

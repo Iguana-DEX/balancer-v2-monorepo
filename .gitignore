@@ -1,3 +1,7 @@
+# Styliann
+.env
+.hardhat/*
+
 # Logs
 yarn-debug.log*
 yarn-error.log*

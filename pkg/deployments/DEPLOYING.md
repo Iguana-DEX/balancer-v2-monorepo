@@ -108,12 +108,16 @@ This data is accessed via the [`local-networks-config`](https://www.npmjs.com/pa
     },
     "bsc": {
       "url": "https://bsc.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "bsc-etherscan-API-key"
+      "verificationAPIKey": "bscscan-API-key"
     },
     "goerli": {
       "url": "https://goerli.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "goerli-etherscan-API-key"
-    }
+      "verificationAPIKey": "etherscan-API-key"
+    },
+    "bsctestnet": {
+      "url": "https://bsctestnet.rpc.endpoint/myAPIKey",
+      "verificationAPIKey": "bscscan-API-key"
+    },
   },
   "defaultConfig": {
     "gasPrice": "auto",
